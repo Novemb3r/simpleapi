@@ -1,0 +1,13 @@
+{
+    "name": "pm43team/simpleapi",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Novemb3r",
+            "email": "igkutyrev@mail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.3"
+    }
+}
