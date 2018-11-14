@@ -61,5 +61,5 @@ $building = [
 ];
 
 $floorPictures = [
-  0 => 'https://i.imgur.com/7ZsSf.jpg'
+  '0' => 'https://i.imgur.com/7ZsSf.jpg'
 ];
