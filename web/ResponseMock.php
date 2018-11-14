@@ -59,5 +59,5 @@ $response = [
 ];
 
 $responseNames = array_map(function ($a) {
-    return $a['name'];
+    return [$a['id'], $a['name']];
 }, $response);
