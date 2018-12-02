@@ -9,6 +9,7 @@ $app = new Silex\Application();
 $app['debug'] = true;
 
 include './ResponseMock2.php';
+include './FloydWarshall.php';
 
 $fw = new FloydWarshall(24);
 $fw->make_graph('./ResponseMock2.php');
