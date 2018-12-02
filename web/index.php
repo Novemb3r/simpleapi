@@ -11,10 +11,10 @@ $app['debug'] = true;
 include './ResponseMock2.php';
 include './FloydWarshall.php';
 
-$fw = new FloydWarshall(24);
-$fw->make_graph('./ResponseMock2.php');
-$fw->matrix_create();
-$fw->floyd_warshall();
+//$fw = new FloydWarshall(24);
+//$fw->make_graph($building);
+//$fw->matrix_create();
+//$fw->floyd_warshall();
 
 $app->get('/building/', function (Request $request) use ($app, $building) {
     return $app->json($building);
@@ -29,9 +29,9 @@ $app->get('/static/', function (Request $request) use ($app, $floorPictures) {
 $app->get('/route/', function (Request $request) use ($app, $fw) {
     $params = $request->query->all();
 
-    $path = $fw->get_path($params['from'], $params['to']);
+    //$path = $fw->get_path($params['from'], $params['to']);
 
-    return $app->json($path);
+    return $app->json($params);
 });
 
 $app->run();

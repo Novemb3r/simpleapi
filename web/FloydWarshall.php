@@ -55,9 +55,8 @@ class FloydWarshall
      * Make array of edges from file
      * @param $file
      */
-    public function make_graph($file)
+    public function make_graph($building)
     {
-        include $file; #'ResponseMock.php'
         $t = 0;
         for ($i = 0; $i < 5; ++$i) {
             for ($j = 0; $j < count($building['points'][$i]['relatedPoints']); ++$j) {
