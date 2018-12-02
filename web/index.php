@@ -5,7 +5,7 @@ $app = new Silex\Application();
 
 $app['debug'] = true;
 
-include './ResponseMock.php';
+include './ResponseMock2.php';
 
 $app->get('/building/', function (Silex\Application $app) use ($building) {
     return $app->json($building);
