@@ -130,10 +130,12 @@ class FloydWarshall
      * Print shortest path from point a to point b
      * @param $a
      * @param $b
+     *
+     * @return
      */
     public function get_path($a, $b)
     {
         $p = $this->paths[$a - 1][$b - 1];
-        print_r($p);
+        return $p;
     }
 }
