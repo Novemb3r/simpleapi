@@ -184,7 +184,7 @@ $building = [
             'type' => 'Corridor',
             'relatedPoints' => [],
             'coordinates' => [
-                'x' => 213,
+                'x' => 339,
                 'y' => 1248
             ],
             'floor' => 0
@@ -283,7 +283,7 @@ $building = [
             'type' => 'Room',
             'relatedPoints' => [],
             'coordinates' => [
-                'x' => 213,
+                'x' => 339,
                 'y' => 1584
             ],
             'floor' => 0
@@ -296,17 +296,6 @@ $building = [
             'coordinates' => [
                 'x' => 483,
                 'y' => 1593
-            ],
-            'floor' => 0
-        ],
-        [
-            'id' => 28,
-            'name' => 'Кабинет 130',
-            'type' => 'Room',
-            'relatedPoints' => [],
-            'coordinates' => [
-                'x' => 213,
-                'y' => 1584
             ],
             'floor' => 0
         ],
@@ -889,7 +878,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 456,
-                'y' => 116
+                'y' => 1116
             ],
             'floor' => 0
         ],
