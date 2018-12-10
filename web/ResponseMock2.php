@@ -262,7 +262,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 717,
-                'y' => 630
+                'y' => 1128
             ],
             'floor' => 0
         ],
@@ -637,6 +637,193 @@ $building = [
             'coordinates' => [
                 'x' => 3192,
                 'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 59,
+            'name' => 'Мужской туалет',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 953,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 60,
+            'name' => 'Кабинет 111',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1122,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 61,
+            'name' => 'Кабинет 111',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1122,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 62,
+            'name' => 'Кабинет 109',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1262,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 63,
+            'name' => 'Кабинет 109А',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1434,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 64,
+            'name' => 'Вахта',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1527,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 65,
+            'name' => 'Штука с книгами',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2304,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 66,
+            'name' => 'Кабинет 107',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2421,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 67,
+            'name' => 'Кабинет 107-I',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2553,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 68,
+            'name' => 'Кабинет 105',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2733,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 69,
+            'name' => 'Кабинет 105А',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2850,
+                'y' => 1128
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 70,
+            'name' => 'Читальный зал',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3444,
+                'y' => 279
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 71,
+            'name' => '',
+            'type' => 'Ladder',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3444,
+                'y' => 279
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 72,
+            'name' => '',
+            'type' => 'Ladder',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1659,
+                'y' => 1413
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 73,
+            'name' => '',
+            'type' => 'Ladder',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1659,
+                'y' => 1575
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 74,
+            'name' => '',
+            'type' => 'Ladder',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2184,
+                'y' => 1416
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 75,
+            'name' => '',
+            'type' => 'Ladder',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2184,
+                'y' => 1566
             ],
             'floor' => 0
         ],
