@@ -20,7 +20,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 267,
-                'y' => 174
+                'y' => 171
             ],
             'floor' => 0
         ],
@@ -75,7 +75,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 267,
-                'y' => 816
+                'y' => 771
             ],
             'floor' => 0
         ],
@@ -713,7 +713,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 2304,
-                'y' => 1128
+                'y' => 1000
             ],
             'floor' => 0
         ],
@@ -879,6 +879,61 @@ $building = [
             'coordinates' => [
                 'x' => 3216,
                 'y' => 1113
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 81,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 456,
+                'y' => 116
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 82,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1900,
+                'y' => 1000
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 81,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1900,
+                'y' => 1413
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 81,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1578,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 81,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2244,
+                'y' => 1248
             ],
             'floor' => 0
         ],
