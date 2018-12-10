@@ -267,12 +267,375 @@ $building = [
             'floor' => 0
         ],
         [
-            'id' => 24,
+            'id' => 25,
             'name' => '',
             'type' => 'Corridor',
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 483,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 26,
+            'name' => 'Кабинет 130',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 213,
+                'y' => 1584
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 27,
+            'name' => 'Кабинет 130/1', //уточнить
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 483,
+                'y' => 1593
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 28,
+            'name' => 'Кабинет 130',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 213,
+                'y' => 1584
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 29,
+            'name' => 'Кабинет 128А',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 654,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 30,
+            'name' => 'Кабинет 128',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 780,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 31,
+            'name' => 'Кабинет 126',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 906,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 32,
+            'name' => 'Кабинет 122',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1122,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 33,
+            'name' => 'Кабинет 120А',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1323,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 34,
+            'name' => 'Кабинет 120',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1428,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 35,
+            'name' => 'Гардерод',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1929,
+                'y' => 1566
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 36,
+            'name' => 'Кабинет 118',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2382,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 37,
+            'name' => 'Кабинет 116А',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2511,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 38,
+            'name' => 'Кабинет 116',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2637,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 39,
+            'name' => 'Кабинет 114',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2748,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 40,
+            'name' => 'Кабинет 112',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2856,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 41,
+            'name' => 'Кабинет 110',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2988,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 42,
+            'name' => 'Кабинет 108',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3096,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 43,
+            'name' => 'Кабинет 108А',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3192,
+                'y' => 1392
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 44,
+            'name' => 'Кабинет 106',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3537,
+                'y' => 1554
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 45,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 654,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 46,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 780,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 47,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 906,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 48,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1122,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 49,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1323,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 50,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 1419 ,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 51,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2382,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 52,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2511,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 53,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2637,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 54,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2748,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 55,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2856,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 56,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 2988,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 57,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3096,
+                'y' => 1248
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 58,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3192,
                 'y' => 1248
             ],
             'floor' => 0
