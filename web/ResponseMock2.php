@@ -240,7 +240,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 645,
-                'y' => 630
+                'y' => 780
             ],
             'floor' => 0
         ],
@@ -251,7 +251,7 @@ $building = [
             'relatedPoints' => [],
             'coordinates' => [
                 'x' => 645,
-                'y' => 630
+                'y' => 1005
             ],
             'floor' => 0
         ],
@@ -824,6 +824,61 @@ $building = [
             'coordinates' => [
                 'x' => 2184,
                 'y' => 1566
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 76,
+            'name' => 'Кабинет 104',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3489,
+                'y' => 1236
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 77,
+            'name' => 'Читальный зал 2',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3252,
+                'y' => 879
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 78,
+            'name' => 'Читальный зал 3',
+            'type' => 'Room',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3615,
+                'y' => 879
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 79,
+            'name' => '',
+            'type' => 'Corridor',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3447,
+                'y' => 879
+            ],
+            'floor' => 0
+        ],
+        [
+            'id' => 80,
+            'name' => '',
+            'type' => 'Ladder',
+            'relatedPoints' => [],
+            'coordinates' => [
+                'x' => 3216,
+                'y' => 1113
             ],
             'floor' => 0
         ],
