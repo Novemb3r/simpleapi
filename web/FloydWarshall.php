@@ -58,7 +58,7 @@ class FloydWarshall
     public function make_graph($building)
     {
         $t = 0;
-        for ($i = 0; $i < 5; ++$i) {
+        for ($i = 0; $i < $this->n; ++$i) {
             for ($j = 0; $j < count($building['points'][$i]['relatedPoints']); ++$j) {
                 $this->edges[$j + $t][] = $i + 1;
                 $this->edges[$j + $t][] = $building['points'][$i]['relatedPoints'][$j];
@@ -135,6 +135,7 @@ class FloydWarshall
     public function get_path($a, $b)
     {
         $p = $this->paths[$a - 1][$b - 1];
-        return $p;
+        //return $p;
+        return ['paths' => $this->paths, 'edges' => $this->edges, 'nxt' => $this->nxt];
     }
 }

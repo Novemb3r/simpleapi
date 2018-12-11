@@ -10,8 +10,9 @@ $app['debug'] = true;
 
 $building = [];
 $building['points'] = array_merge($floor0, $floor1, $floor2, $floor3, $floor4);
-
-//$fw = new FloydWarshall(24);
+//$building['points'] = array_merge($floor4);
+//
+//$fw = new FloydWarshall(count($building['points']));
 //$fw->make_graph($building);
 //$fw->matrix_create();
 //$fw->floyd_warshall();
@@ -24,12 +25,11 @@ $app->get('/static/', function (Request $request) use ($app, $floorPictures) {
     return $app->json($floorPictures);
 });
 
-//$fw = new FloydWarshall(24);
 
 $app->get('/route/', function (Request $request) use ($app, $fw) {
     $params = $request->query->all();
 
-    //$path = $fw->get_path($params['from'], $params['to']);
+//    $path = $fw->get_path($params['from'], $params['to']);
 
     return $app->json($params);
 });
