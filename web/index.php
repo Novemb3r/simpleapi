@@ -3,13 +3,13 @@
 use Symfony\Component\HttpFoundation\Request;
 
 require('../vendor/autoload.php');
+include './AppDi.php';
 
 $app = new Silex\Application();
-
 $app['debug'] = true;
 
-include './ResponseMock2.php';
-include './FloydWarshall.php';
+$building = [];
+$building['points'] = array_merge($floor0, $floor1, $floor2, $floor3, $floor4);
 
 //$fw = new FloydWarshall(24);
 //$fw->make_graph($building);
