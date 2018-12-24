@@ -36,9 +36,13 @@ class FloydWarshall
         $floorSource = (int)($a / 1000);
         $floorDestination = (int)($b / 1000);
 
-        include './Paths/paths.php';
-        $this->paths = $floorPaths[$floorSource];
-        $this->id = $ids[$floorSource];
+        //include './Paths/paths.php';
+
+        $this->paths = json_decode(file_get_contents('ALL_PATHS.txt'));
+        $this->id = json_decode(file_get_contents('ALL_IDS.txt'));
+
+//        $this->paths = $floorPaths[$floorSource];
+//        $this->id = $ids[$floorSource];
     }
 
     /**
